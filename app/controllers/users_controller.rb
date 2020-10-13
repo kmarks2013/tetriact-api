@@ -14,4 +14,9 @@ class UsersController < ApplicationController
         render json: user
     end
 
+    private
+    def user_params
+        params.permit(:gamertag, :score)
+    end
+
 end
