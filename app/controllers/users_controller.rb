@@ -5,6 +5,11 @@ class UsersController < ApplicationController
         render json: users
     end
 
+    def highScores
+        users = User.all.score_order
+        render json: users
+    end
+
     def show
         user = User.find(params[:id])
     end
