@@ -11,7 +11,8 @@ class UsersController < ApplicationController
     end
 
     def top_score
-        users = User.top_score
+        user = User.top_score
+        render json: user
     end
 
     def show
