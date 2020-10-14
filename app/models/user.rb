@@ -4,4 +4,8 @@ class User < ApplicationRecord
         order ('id ASC')
     end
 
+    def self.score_order
+        order ('score DESC')
+    end
+
 end
