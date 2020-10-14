@@ -8,7 +8,7 @@ class User < ApplicationRecord
         order ('score DESC')
     end
 
-    def self.high_score
+    def self.top_score
         self.score_order.first
     end
 
