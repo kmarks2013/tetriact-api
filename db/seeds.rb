@@ -5,3 +5,17 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+User.destroy_all
+User.reset_pk_sequence
+
+User.create(gamertag: "AAA", score: 10000)
+User.create(gamertag: "AAA", score: 10000)
+User.create(gamertag: "AAA", score: 10000)
+User.create(gamertag: "AAA", score: 10000)
+User.create(gamertag: "AAA", score: 10000)
+User.create(gamertag: "AAA", score: 10000)
+User.create(gamertag: "AAA", score: 10000)
+User.create(gamertag: "AAA", score: 10000)
+User.create(gamertag: "AAA", score: 10000)
+User.create(gamertag: "AAA", score: 10000)
