@@ -5,12 +5,12 @@ class UsersController < ApplicationController
         render json: users
     end
 
-    def highScores
+    def high_scores
         users = User.score_order
         render json: users
     end
 
-    def topScore
+    def top_score
         users = User.top_score
     end
 
