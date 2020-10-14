@@ -10,6 +10,10 @@ class UsersController < ApplicationController
         render json: users
     end
 
+    def topScore
+        users = User.top_score
+    end
+
     def show
         user = User.find(params[:id])
     end
