@@ -1,7 +1,7 @@
 class User < ApplicationRecord
 
     def self.default_order
-        order ('id ASC')
+        self.order(:id)
     end
 
     def self.score_order
