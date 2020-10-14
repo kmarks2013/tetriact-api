@@ -1,12 +1,12 @@
 class UsersController < ApplicationController
 
     def index
-        users = User.all.default_order
+        users = User.default_order
         render json: users
     end
 
     def highScores
-        users = User.all.score_order
+        users = User.score_order
         render json: users
     end
 
