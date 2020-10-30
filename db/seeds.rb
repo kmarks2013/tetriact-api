@@ -19,4 +19,5 @@ User.create(gamertag: "AAA", score: 10000)
 User.create(gamertag: "AAA", score: 10000)
 User.create(gamertag: "AAA", score: 10000)
 User.create(gamertag: "AAA", score: 10000)
-User.create(gamertag: "AAA", score: 10000)
+
+puts ('added starter users')
