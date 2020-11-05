@@ -5,7 +5,12 @@ class User < ApplicationRecord
     end
 
     def self.score_order
-        self.order(:score).reverse_order.order(:created_at)
+        result = self.order(:score).reverse_order
+        # puts result.name
+        order("created_at ASC where gamertag_is_not AAA ")
+        # result.order(:created_at)
+        # need conditional ordering
+        # self.order(:score).reverse_order.order(:created_at).reverse_order
     end
 
     def self.top_score
