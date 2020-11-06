@@ -5,7 +5,7 @@ class User < ApplicationRecord
     end
 
     def self.score_order
-        self.order(score: :desc, created_at: :desc)
+        self.order(score: :desc)
     end
 
     def self.top_score
