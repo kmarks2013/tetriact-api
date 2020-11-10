@@ -9,6 +9,7 @@
 User.destroy_all
 User.reset_pk_sequence
 
+User.create(gamertag: "dabuffalo", score: 15000)
 User.create(gamertag: "AAA", score: 10000)
 User.create(gamertag: "AAA", score: 10000)
 User.create(gamertag: "AAA", score: 10000)
@@ -18,4 +19,5 @@ User.create(gamertag: "AAA", score: 10000)
 User.create(gamertag: "AAA", score: 10000)
 User.create(gamertag: "AAA", score: 10000)
 User.create(gamertag: "AAA", score: 10000)
-User.create(gamertag: "AAA", score: 10000)
+
+puts ('added starter users')
