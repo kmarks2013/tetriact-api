@@ -34,3 +34,10 @@ To Be Added
     run rails s to start the server
 
 Be sure to visit the repo for the [frontend](https://github.com/kmarks2013/tetriact-web-client) and follow those instructions!
+
+### Technologies Used
+
+1. Ruby
+2. Ruby on Rails
+3. PostgresSql
+4. Active-Record-Reset-PK-Sequence
