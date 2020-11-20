@@ -23,3 +23,14 @@ The TETRIACT api is built with Ruby on Rails and uses PostgresSql for its databa
 
 ### Demo
 To Be Added
+
+### Installation
+
+    Clone repo and CD into the directory
+    bundle install
+    run rails db:create to create your postgres database
+    run rails db:migrate to bring up migrationscftt5
+    run rails db:seed to seed data for champions and items
+    run rails s to start the server
+
+Be sure to visit the repo for the [frontend](https://github.com/kmarks2013/tetriact-web-client) and follow those instructions!
