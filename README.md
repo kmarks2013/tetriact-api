@@ -41,3 +41,11 @@ Be sure to visit the repo for the [frontend](https://github.com/kmarks2013/tetri
 2. Ruby on Rails
 3. PostgresSql
 4. Active-Record-Reset-PK-Sequence
+
+### Future Updates
+
+1. Responsvie Styling
+2. Instructions
+3. Music should maintain state before after pause
+4. On game Resart game should keep props from before for audio
+5. Custom designed SVG background
