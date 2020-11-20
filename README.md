@@ -14,3 +14,5 @@ The TETRIACT client was built using React and uses React Hooks to create state a
 
 The music and background image are sourced from:
 [Wikimedia](https://commons.wikimedia.org/wiki/File:Tetris_theme.ogg) and [FreePik](https://www.freepik.com/vectors/background) respectively.
+
+[TETRIACT Web Client](https://github.com/kmarks2013/tetriact-web-client)
