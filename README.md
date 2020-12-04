@@ -48,22 +48,21 @@ Due to this app emulating an arcade scoring setup it has a very simple domain mo
        
        $ rails s
 
-Be sure to visit the repo for the [frontend](https://github.com/kmarks2013/tetriact-web-client) and follow those instructions!
+Be sure to visit the repo for the [frontend](https://github.com/kmarks2013/tetriact-web-client) and follow those instructions !
 
 ### Technologies Used
 
-1. Ruby
-2. Ruby on Rails
-3. PostgresSql
+1. Ruby and Ruby on Rails
+- [Rails Guides](https://guides.rubyonrails.org/getting_started.html)
+2. PostgresSQL
+- [PostgresSQL](https://www.postgresql.org/)
 4. Active-Record-Reset-PK-Sequence
+- [activerecord-reset-pk-sequence](https://github.com/splendeo/activerecord-reset-pk-sequence)
 
 ### Future Updates
-
-1. Responsvie Styling
-2. Instructions
-3. Music should maintain state before after pause
-4. On game Resart game should keep props from before for audio
-5. Custom designed SVG background
+1. Responsvie Styling for more screen sizes.
+2. When restarting the game it should maintain the state of the audio from before.
+3. Custom designed SVG background.
 
 ### Special Thanks
 I would love to thank [Thomas Weibenfalk](weibenfalk.com) and [FreeCodeCamp](https://www.freecodecamp.org/news/react-hooks-tetris-game/) for their amazing tutorial, [Wikimedia](https://commons.wikimedia.org/wiki/File:Tetris_theme.ogg) for allowing me to use the Tetris Theme, and [Freepik](https://www.freepik.com/vectors/background") for their amazing vector background!
