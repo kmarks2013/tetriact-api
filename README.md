@@ -18,7 +18,7 @@ A user can play the game, save their gamertags and scores, and see where they ra
 ---
 
 ### Motivation
-I have always been a big fan of tetris and wanted to attempt to build it using react.  I also wanted to learn more about hooks, and a new way of styling which is why I chose to follow this [tutorial](https://www.youtube.com/watch?v=ZGOaCxX8HIU&t=322s&ab_channel=freeCodeCamp.org) for much of the game logic.
+I have always been a big fan of Tetris and wanted to attempt to build it using React. Because I am also a fan of arcade games I created this API that would allow players to save their scores and see where they rank in the top 10.
 
 ### Domain Model
 
@@ -63,6 +63,3 @@ Be sure to visit the repo for the [frontend](https://github.com/kmarks2013/tetri
 1. Responsvie Styling for more screen sizes.
 2. When restarting the game it should maintain the state of the audio from before.
 3. Custom designed SVG background.
-
-### Special Thanks
-I would love to thank [Thomas Weibenfalk](weibenfalk.com) and [FreeCodeCamp](https://www.freecodecamp.org/news/react-hooks-tetris-game/) for their amazing tutorial, [Wikimedia](https://commons.wikimedia.org/wiki/File:Tetris_theme.ogg) for allowing me to use the Tetris Theme, and [Freepik](https://www.freepik.com/vectors/background") for their amazing vector background!
